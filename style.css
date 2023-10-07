@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+}
+
+.nav {
+    padding: 0em 3em;
+    font-size: 1em;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid;
+}
+
+
+.row {
+    display: flex;
+}
+
+#title {
+    width: 50%;
+    padding: 1em 0em;
+    box-sizing: border-box;
+    float: left;
+}
+
+#nav-item {
+    width: 50%;
+    padding: 0.5em 0em;
+    box-sizing: border-box;
+    float: left;
+}
+
+.login {
+    width: 10%;
+    float: left;
+    text-align: center;
+    padding: 0.5em 0em;
+    box-sizing: border-box;
+}
+
+#nav-item ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    text-align: right;
+}
+
+li {
+    list-style-type: none;
+}
+
+#nav-item ul .darkli:hover {
+    background-color: darkgrey;
+}
+
+#nav-item ul li {
+    padding: 0.5em 1em;
+    text-align: right;
+}
+
+#nav-item ul .li:hover {
+    background-color: rgb(245, 179, 57);
+    color: white;
+    border-radius: 0.3em;
+}
+
+.demo {
+    width: 60%;
+    float: left;
+    background-color: rgb(252, 224, 40);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.demo div {
+    padding: 2em;
+}
+
+.img {
+    width: 40%;
+    float: right;
+    background-color: rgb(252, 224, 40);
+}
+
+.img div {
+    padding: 2em;
+}
+
+.img div img {
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+    border-radius: 100%;
+}
+
+input[type="button"] {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: black;
+    font-size: 1em;
+}
+
+.contact {
+    color: black;
+    font-size: 1.3em;
+    padding: 0em 2em;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+}
+
+.col-3 div {
+    border: 1px solid;
+    box-shadow: 10px 10px 10px grey;
+    padding: 0em 0em 1em 0em;
+    margin: 1em 1em;
+    border-radius: 1em;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 800;
+}
+
+#services .col-3 div img {
+    height: 150px;
+    width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.about {
+    width: 65%;
+    float: left;
+}
+
+.self {
+    width: 35%;
+    float: right;
+}
+
+.about div {
+    padding: 1.5em;
+}
+
+.self div {
+    padding: 2em 1em;
+}
+
+.self div img {
+    width: 80%;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+form input {
+    width: 90%;
+    padding: 0.7em 0.7em;
+    border-radius: 1em;
+    border: 1px solid grey;
+}
+
+input[type="submit"] {
+    width: 95%;
+    background-color: orange;
+    color: white;
+    font-size: 1.3em;
+    padding: 0.3em 0em;
+}
+
+form {
+    padding: 0.7em 2em;
+}
+
+table {
+    padding: 0.7em 2em;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
